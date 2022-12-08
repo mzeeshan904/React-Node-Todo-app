@@ -1,0 +1,23 @@
+.add-todo-container{
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todo-label{
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.todo-input{
+
+    width: 600px;
+    height:50px;
+    outline: none !important;
+    border-radius: 22px;
+    padding: 20px;
+}

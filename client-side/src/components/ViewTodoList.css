@@ -1,0 +1,12 @@
+.todo-list-container{
+
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.table-container{
+
+    box-sizing: border-box;
+    padding: 10px;
+}
