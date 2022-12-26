@@ -1,0 +1,23 @@
+.login-container{
+    padding: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-label{
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-fields{
+
+    width: 600px;
+    height:50px;
+    outline: none !important;
+    border-radius: 22px;
+    padding: 20px;
+}

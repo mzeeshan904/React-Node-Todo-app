@@ -14,6 +14,11 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
+
+          <Link className='active nav-links' to="/add">Add Todo</Link>
+            <Link className='active nav-links' eventKey={2} to="/">
+              View Todo list
+            </Link>
             {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -27,9 +32,9 @@ function Header() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Link className='active nav-links' to="/add">Add Todo</Link>
-            <Link className='active nav-links' eventKey={2} to="/">
-              View Todo list
+            <Link className='active nav-links' to="/login">Login</Link>
+            <Link className='active nav-links' eventKey={2} to="/register">
+              Register
             </Link>
           </Nav>
         </Navbar.Collapse>
